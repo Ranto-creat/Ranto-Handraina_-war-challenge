@@ -18,7 +18,7 @@ Warning: Trying to access array offset on value of type int in /home/level/15_li
 ````
 Il suggère que c'est pas là !!!
 
-5. Donc, Il faut inspecter ce site et le solution est là (^,^)
+5. Donc, Il faut inspecter ce site et la solution est là (^,^)
 ````sh
 <!--?php return 'Low_H4NGING_Fruit'; ?-->
 ````
