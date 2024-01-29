@@ -6,19 +6,22 @@
 rantoo@warchall:~$ mkfifo ~/fifo
 
 ````
+
 * `mkfifo`: La commande pour créer un *FIFO*.
 * `~/fifo`: le *FIFO* est créé dans le répertoire personnel de l'utilisateur (`~`) et est nommé `fifo`.
 
 => Ce *FIFO* peut ensuite être utilisé pour établir une communication bidirectionnelle entre deux processus distincts. L'un des processus peut écrire dans le *FIFO*, tandis que l'autre peut lire à partir de celui-ci.
 
 2. Ensuite,Accéder au dossier de challenge  et exécuter les commandes `./pytong ~/fifo &`
+
+* `./pytong`: Ceci exécute le programme pytong depuis le répertoire actuel (`./`). 
+* `~/fifo` : indique probablement que le programme pytong devrait utiliser le FIFO (~/fifo) pour quelque chose, peut-être comme un canal de communication.
+* `&`: Cela signifie que le processus sera exécuté en arrière-plan. Cela permet à la commande de retourner immédiatement, sans attendre que le programme `pytong` se termine.
+  
 ````sh
 rantoo@warchall:/home/level/12_pytong$ ./pytong ~/fifo &
 
 ````
-* `./pytong`: Ceci exécute le programme pytong depuis le répertoire actuel (`./`). 
-* `~/fifo` : indique probablement que le programme pytong devrait utiliser le FIFO (~/fifo) pour quelque chose, peut-être comme un canal de communication.
-* `&`: Cela signifie que le processus sera exécuté en arrière-plan. Cela permet à la commande de retourner immédiatement, sans attendre que le programme `pytong` se termine.
 
 3. On va tenter d'ouvrir le fichier cible avec ces commandes suivants `(unlink ~/fifo ; echo hi ) > ~/fifo` 
 
@@ -32,6 +35,7 @@ rantoo@warchall:/home/level/12_pytong$ ./pytong ~/fifo &
 ````sh
 rantoo@warchall:/home/level/12_pytong$ (unlink ~/fifo ; echo hi ) > ~/fifo
 ````
+
 
 ````sh
 [1] 2978330
