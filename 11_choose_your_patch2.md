@@ -2,8 +2,9 @@
 
 1. création de liens symboliques pour exploiter les vulnérabilités: __ln -s /bin/sh ~/wc__
 
-Le fichier *~/wc* deviendra un lien symbolique pointant vers */bin/sh*. Cela peut être utilisé pour créer un alias ou un raccourci vers le shell. Lorsqu'on exécute *~/wc*, cela équivaut à exécuter */bin/sh*.
-*-s*: L'option qui indique à ln de créer un lien symbolique (au lieu d'un lien dur)
+* Le fichier *"~/wc"* deviendra un lien symbolique pointant vers *"/bin/sh"*.
+* Cela peut être utilisé pour créer un alias ou un raccourci vers le shell. Lorsqu'on exécute *"~/wc"*, cela équivaut à exécuter *"/bin/sh"*.
+* *"-s"*: L'option qui indique à ln de créer un lien symbolique (au lieu d'un lien dur)
 
 ````sh
 rantoo@warchall:/home/level/11_choose_your_path2$ ln -s /bin/sh ~/wc
