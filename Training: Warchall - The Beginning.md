@@ -12,7 +12,7 @@ Proudly presented by the The Warchall(tm) Staff
 Thanks and shouts to xd-- for idea, motivation and inspiration!
 ````
 solution of : 
-* [00_welcome](https://github.com/Ranto-creat/Ranto-Handraina_warchall_challenge/commit/e82eb35a2ad04728219afe9112e15afb97c92904) : **bitwarrior**
+* [00_welcome](https://github.com/Ranto-creat/Ranto-Handraina_warchall_challenge/blob/d1de9f3c4c821cc71cc3ac1985eb660b0e094be6/level%2002.md) : **bitwarrior**
 * `01_choice_tree` :  **patience**
 * `02` : **HiddenIsConfig**
 * `03` :  **RepeatingHistory**
