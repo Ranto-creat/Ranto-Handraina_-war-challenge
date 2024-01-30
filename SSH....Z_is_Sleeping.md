@@ -49,15 +49,13 @@ rantoo@warchall:~$ chmod 600 2bcd07a701e94a0474d77ee4d6d0f806-23669
 
 ````
 Enfin, 
-
+* Ces commande SSH tente de se connecter au serveur distant warchall.net en tant qu'utilisateur `level08`, en utilisant la clé privée spécifiée `2bcd07a701e94a0474d77ee4d6d0f806-23669` pour l'authentification, et en se connectant sur le port SSH spécifié `19198`
+  
 ````sh
 rantoo@warchall:~$ ssh -i ~/2bcd07a701e94a0474d77ee4d6d0f806-23669 level08@warchall.net -p 19198
 PrivateKeysAreGold
 Connection to warchall.net closed.
 
 ````
-The Passkey of this is : **PrivateKeysAreGold**
+The Passkey of this level is : **PrivateKeysAreGold**
 
-* Ces commande SSH tente de se connecter au serveur distant warchall.net en tant qu'utilisateur `level08`, en utilisant la clé privée spécifiée `2bcd07a701e94a0474d77ee4d6d0f806-23669` pour l'authentification, et en se connectant sur le port SSH spécifié `19198`
-
-Passkey is : **PrivateKeysAreGold**
