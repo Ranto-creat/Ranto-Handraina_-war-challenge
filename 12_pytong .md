@@ -1,7 +1,7 @@
 # 12_pytong 
 
 ## Etape à suivre
-1. Premièrement, il faut créer un fichier appellé _fifo_ dans le repertoire personnel
+1. Premièrement, il faut créer un fichier appellé `fifo` dans le repertoire personnel
 ````sh
 rantoo@warchall:~$ mkfifo ~/fifo
 
