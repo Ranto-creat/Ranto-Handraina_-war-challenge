@@ -23,11 +23,9 @@ rantoo@warchall:/home/level/08_sshz$ ssh-keygen -l -E md5 -f /home/level/08_sshz
 * Après, Essayer de chercher ce fichier `2bcd07a701e94a0474d77ee4d6d0f806` dans le fichier que nous allons télécharger.
 
 
-* Ensuite, ouvrir le terminal PowerShell et guider vers le fichier *cible* `2bcd07a701e94a0474d77ee4d6d0f806` [On peut utiliser Tab]
-en mettant à la fin `user@warchall.net:~/`.
-* Mais tout d'abord, il manque une seulle commandes pour bien passer ce test `scp`.
-* Dans ce cas nous utilisons `scp -P (port_ssh)`.
-* En mon cas, 
+### ouvrir le terminal PowerShell 
+* Mais tout d'abord, il faut passer cet scripts `scp -P (port_ssh) `et guider vers le fichier *cible* `2bcd07a701e94a0474d77ee4d6d0f806` [On peut utiliser Tab] en mettant à la fin `user@warchall.net:~/`.
+* A mon cas, 
 
 ````sh
 PS C:\Users\Ranto> scp -P 19198 C:\Users\Ranto\Downloads\Compressed\debian_ssh_rsa_2048_x86\rsa\2048\2bcd07a701e94a0474d77ee4d6d0f806-23669 rantoo@warchall.net:~/
