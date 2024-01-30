@@ -18,9 +18,9 @@ rantoo@warchall:/home/level/08_sshz$ ssh-keygen -l -E md5 -f /home/level/08_sshz
 ````
 * sortie : `2048 MD5:2b:cd:07:a7:01:e9:4a:04:74:d7:7e:e4:d6:d0:f8:06 no comment (RSA)`.
 
-* Donc, on le fingerprint mais il faut enlever tout les `:` 
-resultat obtenu: `2bcd07a701e94a0474d77ee4d6d0f806`
-Après, Essayer de chercher ce fichier `2bcd07a701e94a0474d77ee4d6d0f806` dans le fichier que nous allons télécharger.
+** Donc, on le fingerprint mais il faut enlever tout les `:` 
+* resultat obtenu: `2bcd07a701e94a0474d77ee4d6d0f806`
+* Après, Essayer de chercher ce fichier `2bcd07a701e94a0474d77ee4d6d0f806` dans le fichier que nous allons télécharger.
 
 
 * Ensuite, ouvrir le terminal PowerShell et guider vers le fichier *cible* `2bcd07a701e94a0474d77ee4d6d0f806` [On peut utiliser Tab]
@@ -58,6 +58,8 @@ PrivateKeysAreGold
 Connection to warchall.net closed.
 
 ````
+The Passkey of this is : **PrivateKeysAreGold**
+
 * Ces commande SSH tente de se connecter au serveur distant warchall.net en tant qu'utilisateur `level08`, en utilisant la clé privée spécifiée `2bcd07a701e94a0474d77ee4d6d0f806-23669` pour l'authentification, et en se connectant sur le port SSH spécifié `19198`
 
 Passkey is : **PrivateKeysAreGold**
